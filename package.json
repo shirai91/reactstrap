@@ -2,7 +2,12 @@
   "name": "reactstrap",
   "version": "6.5.0",
   "description": "React Bootstrap 4 components",
-  "main": "src/index.js",
+  "main": "dist/reactstrap.cjs.js",
+  "jsnext:main": "dist/reactstrap.es.js",
+  "module": "dist/reactstrap.es.js",
+  "jsdelivr": "dist/reactstrap.min.js",
+  "unpkg": "dist/reactstrap.min.js",
+  "cdn": "dist/reactstrap.min.js",
   "esnext": "src",
   "sideEffects": false,
   "scripts": {
