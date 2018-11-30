@@ -2,12 +2,7 @@
   "name": "reactstrap",
   "version": "6.5.0",
   "description": "React Bootstrap 4 components",
-  "main": "dist/reactstrap.cjs.js",
-  "jsnext:main": "dist/reactstrap.es.js",
-  "module": "dist/reactstrap.es.js",
-  "jsdelivr": "dist/reactstrap.min.js",
-  "unpkg": "dist/reactstrap.min.js",
-  "cdn": "dist/reactstrap.min.js",
+  "main": "src/index.js",
   "esnext": "src",
   "sideEffects": false,
   "scripts": {
@@ -25,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/reactstrap/reactstrap.git"
+    "url": "git+https://github.com/shirai91/reactstrap.git"
   },
   "files": [
     "LICENSE",
