@@ -271,8 +271,9 @@ export function addMultipleEventListeners(_els, handler, _events) {
       The third is a string or an array of strings that represents DOM events
     `);
   }
+  console.log('array forEach', Array.prototype.forEach);
   Array.prototype.forEach.call(events, (event) => {
-    Array.prototype.forEach.call(els, (el) => {
+    Array.prototype.forEach.call(els, (el)=> {
       el.addEventListener(event, handler);
     });
   });
